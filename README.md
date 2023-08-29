@@ -12,3 +12,7 @@ pip install wandb
 accelerate config
 ./run.sh
 ```
+
+# Hugginface
+
+https://huggingface.co/asach/tangyauhoong-images-sdxl
