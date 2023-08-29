@@ -14,7 +14,14 @@ This repo contains code and instructions for fine-tuning Stable Diffusion XL on 
 `git clone https://github.com/gamingflexer/finetune-lora-sd-xl.git`
 
 2.  Install requirements
-`pip install -r requirements_sdxl.txt`
+
+
+```
+git clone https://github.com/huggingface/diffusers
+cd diffusers
+pip install -e .
+pip install -r requirements_sdxl.txt
+```
 
 3.  Prepare your image dataset of 200-300 images in a folder called data
 4.  Update run.sh with your own hyperparameters and dataset folder path (Update epochs if needed)
